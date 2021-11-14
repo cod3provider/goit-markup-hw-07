@@ -54,15 +54,14 @@
     flex-wrap: wrap;
     transition: background-color var(--animation),
         box-shadow var(--animation);
-}
 
-.portfolio__link:hover,
-.portfolio__link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-        0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
+        &:hover,
+        &:focus {
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+                0px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
 }
-
 
 .portfolio__card {
     width: 100%;
@@ -72,7 +71,7 @@
     border-left: 1px solid var(--portfolio-border-color);
 }
 
-.portfolio__list .portfolio__name {
+.portfolio__name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -80,7 +79,7 @@
     color: var(--title-color);
 }
 
-.portfolio__list .portfolio-text {
+.portfolio-description {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;

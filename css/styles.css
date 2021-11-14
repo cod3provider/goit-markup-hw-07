@@ -681,7 +681,7 @@ img {
     color: var(--title-color);
 }
 
-.portfolio__list .portfolio-text {
+.portfolio__list .portfolio-description {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
