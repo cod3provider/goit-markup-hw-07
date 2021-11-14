@@ -11,7 +11,7 @@
     --hover-focus-button-color: #ffffff;
     --title-color: #212121;
     --bg-color: #2F303A;
-    --header-logo-color: #000000;
+    --nav__logo-color: #000000;
     --footer-logo-color: #ffffff;
     --portfolio-button-text-color: #212121;
     --filter-button-bg-color: #F5F4FA;
@@ -86,17 +86,17 @@ img {
 }
 /* -------------------Header--------------------- */
 
-.page-header {
+/* .header {
     padding-top: 26px;
     padding-bottom: 23px;
     border: 1px solid #ECECEC;
 }
 
-.header-container {
+.header__container {
     display: flex;
 }
 
-.site-nav {
+.nav {
     display: flex;
     align-items: center;
 }
@@ -125,8 +125,7 @@ img {
     fill: currentColor;
 }
 
-.header-logo,
-.footer-logo {
+.logo {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -138,11 +137,11 @@ img {
     margin-right: 93px;
 }
 
-.header-logo {
-    color: var(--header-logo-color);
+.nav__logo {
+    color: var(--nav__logo-color);
 }
 
-.header-logo span {
+.nav__logo span {
     color: var(--accent-color);
 }
 
@@ -190,7 +189,7 @@ img {
     color: var(--text-color);
     display: flex;
     align-items: center;
-}
+} */
 
 /* -----------------hero----------------- */
 
@@ -455,7 +454,7 @@ img {
 
 /* --------------------Footer----------------------- */
 
-.footer {
+/* .footer {
     padding: 60px 0;
     background-color: var(--bg-color);
 }
@@ -464,13 +463,13 @@ img {
     flex-grow: 1;
 }
 
-.footer-logo {
+.footer__logo {
     display: block;
     margin-bottom: 20px;
     color: var(--footer-logo-color);
 }
 
-.footer-logo span {
+.footer__logo span {
     color: var(--accent-color);
 }
 
@@ -595,7 +594,7 @@ img {
 .mail-button-icon {
     fill: #ffffff;
     margin-left: 10px;
-}
+} */
 
 /* -------------------Портфолио------------------- */
 
