@@ -136,6 +136,8 @@
 }
 
 .modal-form-button {
+    @extend %button;
+    
     padding: 10px 55px;
     min-width: 200px;
     letter-spacing: 0.06em;
