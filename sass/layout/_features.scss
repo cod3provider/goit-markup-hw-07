@@ -1,15 +1,15 @@
-.features-list {
+.features__list {
     display: flex;
 }
 
-.features-item:not(:last-child) {
+.features__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.feature-block {
+.features__block {
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
+    background-color: var(--features-background-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     border-radius: 4px;
 }
 
-.feature-title {
+.features__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -27,7 +27,7 @@
     color: var(--title-color);
 }
 
-.feature-text {
+.features__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
