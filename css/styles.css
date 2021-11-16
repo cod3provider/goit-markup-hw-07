@@ -19,7 +19,7 @@
     --bg-teammate__card: #ffffff;
     --portfolio-border-color: #EEEEEE;
     --section-padding: 94px;
-    --section-title-font-weight: 700;
+    --section__title-font-weight: 700;
     --button-text-color: #ffffff;
 } */
 
@@ -240,7 +240,7 @@ img {
 
 /* -----------------Наши преимущества----------------- */
 
-/* .section-title {
+/* .section__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -250,7 +250,7 @@ img {
     color: var(--title-color);
 }
 
-.features__list {
+.features {
     display: flex;
 }
 
@@ -349,8 +349,8 @@ img {
     padding-bottom: 30px;
 }
 
-.teammate__name,
-.teammate__position {
+.teammate__title,
+.teammate__text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -358,31 +358,31 @@ img {
     color: var(--text-color);
 }
 
-.teammate__name {
+.teammate__title {
     font-weight: 500;
     color: var(--title-color);
 }
 
-.teammate__position {
+.teammate__text {
     margin-top: 10px;
 }
 
-.teammate-social {
+.social {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.teammate-social__item {
+.social__item {
     width: 44px;
     height: 44px;
 }
 
-.teammate-social__item:not(:last-child) {
+.social__item:not(:last-child) {
     margin-right: 10px;
 } */
 
-/* .teammate-social__link {
+/* .social__link {
     display: flex;
     width: 100%;
     height: 100%;
@@ -392,21 +392,21 @@ img {
     transition: background-color var(--animation);
 }
 
-.teammate-social__icon {
+.social__icon {
     fill: #AFB1B8;
     transition: fill var(--animation);
 }
 
-.teammate-social__link:hover,
-.teammate-social__link:focus {
+.social__link:hover,
+.social__link:focus {
     background-color: var(--accent-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
 }
 
-.teammate-social__link:hover .teammate-social__icon,
-.teammate-social__link:focus .teammate-social__icon {
+.social__link:hover .social__icon,
+.social__link:focus .social__icon {
     fill: #ffffff;
 } */
 
@@ -597,13 +597,13 @@ img {
 
 /* -------------------Портфолио------------------- */
 
-/* .portfolio__buttons-list {
+/* .filter {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
 }
 
-.portfolio__buttons-list .portfolio__button {
+.filter .filter__button {
     padding: 6px 22px;
     font-family: inherit;
     font-weight: 500;
@@ -627,7 +627,7 @@ img {
 
 /* -------------------Наши работы-------------------- */
 /* 
-.portfolio__list {
+.portfolio {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -655,9 +655,9 @@ img {
 }
 
 
-.portfolio__buttons-list .portfolio__button:hover,
-.portfolio__buttons-list .portfolio__button:focus,
-.portfolio__buttons-list .portfolio__button:active {
+.filter .filter__button:hover,
+.filter .filter__button:focus,
+.filter .filter__button:active {
     color: var(--hover-focus-button-color);
     background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -673,7 +673,7 @@ img {
     border-left: 1px solid var(--portfolio-border-color);
 }
 
-.portfolio__list .portfolio__name {
+.portfolio .portfolio__name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -681,7 +681,7 @@ img {
     color: var(--title-color);
 }
 
-.portfolio__list .portfolio-text {
+.portfolio .portfolio__text {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
@@ -694,7 +694,7 @@ img {
     overflow: hidden;
 }
 
-.portfolio__overlay-text {
+.portfolio__overlay {
     padding: 63px 24px;
     position: absolute;
     left: 0;
@@ -711,7 +711,7 @@ img {
 
 }
 
-.portfolio__link:hover .portfolio__overlay-text {
+.portfolio__link:hover .portfolio__overlay {
     transform: translateY(0);
 } */
 

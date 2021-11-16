@@ -6,12 +6,12 @@
     top: 0;
     transition: opacity var(--animation),
         visibility var(--animation);
-}
 
-.backdrop.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+    &.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 
 .modal {

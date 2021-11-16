@@ -31,26 +31,26 @@
     color: var(--text-color);
 }
 
-.teammate__name {
+.teammate__title {
     @extend %teammate-main;
 
     font-weight: 500;
     color: var(--title-color);
 }
 
-.teammate__position {
+.teammate__text {
     @extend %teammate-main;
 
     margin-top: 10px;
 }
 
-.teammate-social {
+.social {
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.teammate-social__item {
+.social__item {
     width: 44px;
     height: 44px;
 
@@ -59,7 +59,7 @@
     }
 }
 
-.teammate-social__link {
+.social__link {
     display: flex;
     width: 100%;
     height: 100%;
@@ -77,12 +77,12 @@
     }
 }
 
-.teammate-social__icon {
+.social__icon {
     fill: #AFB1B8;
     transition: fill var(--animation);
 
-    .teammate-social__link:hover &,
-    .teammate-social__link:focus & {
+    .social__link:hover &,
+    .social__link:focus & {
         fill: #ffffff;
     }
 }
